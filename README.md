@@ -28,11 +28,16 @@ Based off of the modelling done, it would be best to conduct more statistical an
 
 Another suggestion is to look at a time component analysis. TV shows are the most viewed type of anime, during which time of year. From here the recommendation system can help to fill in the gaps within the fiscal year for anime studios. They can either spread out the dates or work on a new pipeline for creating more specials. 
 
-### Show Off Your Data Viz
+### Glimpse of some Data Viz
 
 ![Distribution of anime ratings](figures/distributionofratings.png)
 
 > Image taken from `copy_of_mvp.ipynp` [documentation](https://github.com/anilaq/capstone/blob/master/Copy_of_mvp.ipynb)
+
+### Sources: 
+* [https://en.wikipedia.org/wiki/Anime#Industry()
+* [https://en.wikipedia.org/wiki/Spirited_Away()
+* [https://sifted.eu/articles/streaming-startups-coronavirus/()
 
 
 
