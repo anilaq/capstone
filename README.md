@@ -1,65 +1,39 @@
-# Capstone Template for London Campus  
 
-This repository is a boilerplate template for Flatiron School captstone projects.
-The idea here is that you can take this repository and use it as jumping off point to structure your project so you don't have to re-invent the wheel in terms of the organization of the project.
-If you don't like how this repo is organised, you don't have to stick to it, feel free to change it.
-That said, this format here is a tried and tested format that should work for you! 
+# Recommendation System for Anime
 
-The way to use this template is to just copy and paste the file structure (don't fork it, you don't want to be just manipulating a template!) to your new initialized repo and fill in things where they should go.
-We also suggest if you need direction to check out the `Project Checklist` markdown file  that is found in this repository as well as the [Capstone Questions](https://docs.google.com/document/d/11Otz1b2oRT3Xn0TK16X1o44hphGP4aBqdpARv0GWXBA/edit?usp=sharing) document for help building and assessing this project. 
-Both this boiler plate and the checklist were built simultaneously, so feel free to use them in tandem. 
-
-> Eventually you will delete everything above this line. This is just here to introduce the boilerplate. We also suggest deleting any other indentations like this. There are more there to get you thinking about the 'point' of the section. 
-# The Title of Your Project Goes Here 
-
-One sentence summary goes here saying what you did.
-A second sentence goes here says why it matters.
+I created a recommendation system that allows people to find anime to watch. 
+As the world still resides in lockdown and everyone has just about watched every interesting show on netflix, it may be useful to try something new and different.
 A last sentence links to any productionized web dashboard here.
 
 You can also link to 
-* [Your Email]()
-* [Your Linked In]()
-* [Your Twitter?]()
+* [anila.m.qureshi@gmail.com()
+* [https://www.linkedin.com/in/aneela-qureshi-262aa670/]()
+* [https://twitter.com/aneeliabedelia]()
 
-> We suggest that people follow a "Facebook Page" approach to writing up their README. This means that the most important information is at the top (your name, point of project, contact info) and then as you go down the document you get less and less relevant information. Remember that you are NOT writing a detective story and need to find a way to present as much information as quickly as possible to the person that will be looking at this for 45 seconds tops. Of course others might look for longer, but the UX/UI of your REAMDE should be done with the 'github skimmer' in mind.
 
 ### Executive Summary
 
-Start with one or two sentences here that contextualises what your project matters here.
-These two sentences will demonstrate your business understanding. 
+Covid19 has affected each and everyone of us globally. Since many countries have shut their borders and have ordered everyone to stay home, this has limited all of us. The confinement has created a surge in consumers streaming more entertainnment. It is not just Netflix that is seeing an increase in user traffic. Most European countries have been in lockdown for over 60 days, this includes bank holidays and half term holidays and easter for those who have children. By now most of us have already watched most of recommended shows on all streaming sites and need to find something new.
 
-Next, in a second paragraph, write how you were able to make a data science operationalization of the problem.
-For example, you might say that in order to help solve this problem you set out to build a classification ML model in order to automate some process. 
+Anime, is a hand drawn and computer animation originating from Japan which is widely drawn a cult following around the world. The animation industry consists of more than 430 companies. Some of the most popular anime that has come to Western television is Pokemon and Yugi-Oh ."Spirited Away" a film created by Hayao Miyazaki and animated by Studio Ghibli is the highest grossing film within the anime genre. The reason it became so popular in the west is because a good friend of Miyazaki convinced him to sell distribution rights to Walt Disney. Like Spirited Away, there are thousands of really good anime films and shows produced by the same animation house. Due to the pandemic a nice way to bring such works of art into Disney plus or any streaming site in the West I have created a recommendation system that can help anyone or any company to view/add the highest rated anime. The Japan External Trade Organization has valued overseas sales to  18𝑏𝑖𝑙𝑙𝑖𝑜𝑛( 5.2 billion for the US alone) in 2004. This has likely grown. With covid19 looming over Japan which has caused one of the first long term recessions for the country. A way at which potential growth could take place is focusing on streaming and producing more of the top recommended.
 
-Third, you then write what you did on the project that is a bit more technical.
-Here you might say that you took data from [here and make it a link to the original data]() and then ran `a list of models you ran here` in your analysis.
-Then end with one sentence that picks what your best model was and how it performed.
+Below I am creating a recommendation system for anime. This will help with the above problem and can help to create more in demand anime that is similar. It can also help anyone who is not familiar with the niche genre to quickly find top rated items. (Helping to grow the market).
 
-Lastly, you say in one or two sentences why this matters. 
-For example, now as opposed to before this data analysis, you can now predict X better than Y. 
+I have downloaded anime and user ratings from https://www.kaggle.com/CooperUnion/anime-recommendations-database . I will conduct exploratory data analysis to familiarise the reader and myself with the data presented. From there I have created a baseline model using Singular Value Decomposition(SVD). PLEASE NOTE THE BASELINE MODEL IS TOWARDS THE BOTTOM. I will then do memory based models which will look at user based v item based. I will use KNNBase, KNNBaseline and KNNWithMeans. Then I will take the top performing model and evaluate its root mean squared error (rmse) and its mean absolute error (mae). 
 
-The goal of this project was to create a `regression/classification` model that was able to predict `what you set out to do`.
-
-> If you are able to swap out the text here with what your case example is you will demonstrate the following:
-> 1. You get why what you're doing 'matters'
-> 2. You are able to take ill defined problems and turn them into something a data scienst can solve
-> 3. You show off your analystical and modeling chops.
-> 4. You are able to communicate technical things you do.
 
 ### More Information
 
-Below your Executive Summary, you can document whatever you feel would be of interest to a future employer.
-Here I would especially suggest diving a bit deeper into your methodology and including images that you are proud of from the project. 
-Remember, that people will probably judge your github project page within 45 seconds tops, you want it to look as clean as possible. 
+Based off of the modelling done, it would be best to conduct more statistical analysis on top rated and viewed anime that comes from the same animation studios, writers, directors and media houses. From here we can tweek the recommendation system to include their newest releases. 
 
-Write documentation that looks like someone you would want to work with.
+Another suggestion is to look at a time component analysis. TV shows are the most viewed type of anime, during which time of year. From here the recommendation system can help to fill in the gaps within the fiscal year for anime studios. They can either spread out the dates or work on a new pipeline for creating more specials. 
 
 ### Show Off Your Data Viz
 
-![Everyone Likes a Pairplot](figures/seaborn-pairplot-3.png)
+![Distribution of anime ratings](figures/distributionofratings.png)
 
-> Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+> Image taken from `copy_of_mvp.ipynp` [documentation](https://github.com/anilaq/capstone/blob/master/Copy_of_mvp.ipynb)
 
-**DO NOT PUT THE GOOD BITS OF YOUR PROJECT BURRIED AWAY AT THE BOTTOM OF YOUR README, YOU ARE NOT WRITING A DETECTIVE NOVEL**
+
 
 
