@@ -19,7 +19,7 @@ Anime, is a hand drawn and computer animation originating from Japan which is wi
 
 Below I am creating a recommendation system for anime. This will help with the above problem and can help to create more in demand anime that is similar. It can also help anyone who is not familiar with the niche genre to quickly find top rated items. (Helping to grow the market).
 
-I have downloaded anime and user ratings from https://www.kaggle.com/CooperUnion/anime-recommendations-database . I will conduct exploratory data analysis to familiarise the reader and myself with the data presented. From there I have created a baseline model using Singular Value Decomposition(SVD). PLEASE NOTE THE BASELINE MODEL IS TOWARDS THE BOTTOM. I will then do memory based models which will look at user based v item based. I will use KNNBase, KNNBaseline and KNNWithMeans. Then I will take the top performing model and evaluate its root mean squared error (rmse) and its mean absolute error (mae). 
+I have downloaded anime and user ratings from https://www.kaggle.com/CooperUnion/anime-recommendations-database . I will conduct exploratory data analysis to familiarise the reader and myself with the data presented. From there I have created a baseline model using Singular Value Decomposition(SVD). I will then do memory based models which will look at user based v item based. I will use KNNBase, KNNBaseline and KNNWithMeans. Then I will take the top performing model and evaluate its root mean squared error (rmse) and its mean absolute error (mae). 
 
 
 ### More Information
@@ -33,6 +33,16 @@ Another suggestion is to look at a time component analysis. TV shows are the mos
 ![Distribution of anime ratings](figures/distributionofratings.png)
 
 > Image taken from `copy_of_mvp.ipynp` [documentation](https://github.com/anilaq/capstone/blob/master/Copy_of_mvp.ipynb)
+
+### Directory
+
+Although I started this project on my local machine, I did not have enough CPU power to continue. At the top of my `copy_of_mvp.ipynb` and `final_mvp.ipynb` you can see that there is a link to run it and replicate it in google colab. (Friendly and repetitive reminder that google colab does not save notebooks, you have to manually do this yourself). 
+
+The `final_mvp.ipynb` is where the most up to date and organized modelling occurs. 
+The `figures` file holds all images that have been used for visuals in the readme.md file. 
+The `anime-recommendations-database` holds all the data that I have downloaded from kaggle to run my models on. 
+The `ppt.pdf` is a quick powerpoint that goes over the business problem, models, and findings as stated above but in a more visual manner. 
+
 
 ### Sources: 
 * [https://en.wikipedia.org/wiki/Anime#Industry()
