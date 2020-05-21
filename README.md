@@ -1,19 +1,18 @@
 
 # Recommendation System for Anime
 
+## Executive Summary 
+
 I created a recommendation system that allows people to find anime to watch. 
-As the world still resides in lockdown and everyone has just about watched every interesting show on netflix, it may be useful to try something new and different.
-A last sentence links to any productionized web dashboard here.
+Everyone has just about watched every interesting show on netflix, it may be useful to try something new and different.
 
 You can also link to 
-* [anila.m.qureshi@gmail.com()
-* [https://www.linkedin.com/in/aneela-qureshi-262aa670/]()
-* [https://twitter.com/aneeliabedelia]()
+* [Email Me](anila.m.qureshi@gmail.com)
+* [My LinkedIn](https://www.linkedin.com/in/aneela-qureshi-262aa670/)
+* [Follow me on Twitter](https://twitter.com/aneeliabedelia)
 
 
-### Executive Summary
-
-Covid19 has affected each and everyone of us globally. Since many countries have shut their borders and have ordered everyone to stay home, this has limited all of us. The confinement has created a surge in consumers streaming more entertainnment. It is not just Netflix that is seeing an increase in user traffic. Most European countries have been in lockdown for over 60 days, this includes bank holidays and half term holidays and easter for those who have children. By now most of us have already watched most of recommended shows on all streaming sites and need to find something new.
+### Background Information
 
 Anime, is a hand drawn and computer animation originating from Japan which is widely drawn a cult following around the world. The animation industry consists of more than 430 companies. Some of the most popular anime that has come to Western television is Pokemon and Yugi-Oh ."Spirited Away" a film created by Hayao Miyazaki and animated by Studio Ghibli is the highest grossing film within the anime genre. The reason it became so popular in the west is because a good friend of Miyazaki convinced him to sell distribution rights to Walt Disney. Like Spirited Away, there are thousands of really good anime films and shows produced by the same animation house. Due to the pandemic a nice way to bring such works of art into Disney plus or any streaming site in the West I have created a recommendation system that can help anyone or any company to view/add the highest rated anime. The Japan External Trade Organization has valued overseas sales to  18𝑏𝑖𝑙𝑙𝑖𝑜𝑛( 5.2 billion for the US alone) in 2004. This has likely grown. With covid19 looming over Japan which has caused one of the first long term recessions for the country. A way at which potential growth could take place is focusing on streaming and producing more of the top recommended.
 
@@ -30,9 +29,16 @@ Another suggestion is to look at a time component analysis. TV shows are the mos
 
 ### Glimpse of some Data Viz
 
-![Distribution of anime ratings](figures/distributionofratings.png)
+![Distribution of anime types](figures/distributionoftypes.png)
 
 > Image taken from `copy_of_mvp.ipynp` [documentation](https://github.com/anilaq/capstone/blob/master/Copy_of_mvp.ipynb)
+
+![Distribution of user ratings](figures/distributionsofratings.png)
+> Image taken from `copy_of_mvp.ipynp` [documentation](https://github.com/anilaq/capstone/blob/master/Copy_of_mvp.ipynb)
+
+![Number of Reviews per User](figures/numofreviewsperuser.png)
+> Image taken from `copy_of_mvp.ipynp` [documentation](https://github.com/anilaq/capstone/blob/master/Copy_of_mvp.ipynb)
+
 
 ### Directory
 
